@@ -1,0 +1,3 @@
+[submodule "bug.n"]
+	path = bug.n
+	url = https://github.com/fuhsjr00/bug.n.git
