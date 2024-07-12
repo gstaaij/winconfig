@@ -1,0 +1,16 @@
+{
+  "SearchSources": [
+    {
+      "Title": "DuckDuckGo",
+      "ActionKeyword": "*",
+      "Icon": "duckduckgo.png",
+      "CustomIcon": false,
+      "Url": "https://duckduckgo.com/?q={q}",
+      "Enabled": true
+    }
+  ],
+  "EnableSuggestion": false,
+  "Suggestion": "Google",
+  "BrowserPath": null,
+  "OpenInNewBrowser": true
+}

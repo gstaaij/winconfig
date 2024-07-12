@@ -12,7 +12,8 @@ winget install Microsoft.PowerShell
 echo Installing AltSnap...
 winget install AltSnap.AltSnap
 echo Installing Flow Launcher...
-winget install Flow-Launcher.Flow-Launcher
+curl -LO "https://github.com/Flow-Launcher/Flow.Launcher/releases/latest/download/Flow-Launcher-Portable.zip"
+tar -xf Flow-Launcher-Portable.zip
 echo Installing fastfetch...
 winget install Fastfetch-cli.Fastfetch
 
@@ -23,3 +24,8 @@ echo Press any key if you want to install the proprietary extras...
 pause >nul
 
 winget install voidtools.Everything
+
+echo:
+echo Done!
+echo Press any key to exit...
+pause >nul

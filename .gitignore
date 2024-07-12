@@ -1,0 +1,14 @@
+
+# Flowlauncher
+Flow-Launcher-Portable.zip
+FlowLauncher/*
+!FlowLauncher/app-*
+FlowLauncher/app-*/*
+!FlowLauncher/app-*/UserData
+FlowLauncher/app-*/UserData/*
+!FlowLauncher/app-*/UserData/Settings
+FlowLauncher/app-*/UserData/Settings/*
+!FlowLauncher/app-*/UserData/Settings/Settings.json
+!FlowLauncher/app-*/UserData/Settings/Plugins
+FlowLauncher/app-*/UserData/Settings/Plugins/*/*
+!FlowLauncher/app-*/UserData/Settings/Plugins/*/Settings.json
